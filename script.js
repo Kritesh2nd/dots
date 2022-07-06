@@ -58,7 +58,7 @@ function reSuffelBox1(){
       boxArr[b].style.top = a3Arr[b]-10 + "px";
       boxArr[b].style.left = a4Arr[b]-10 + "px";
     }
-    aniCnt1++;
+    aniCnt1++;;
     setTimeout(()=>{reSuffelBox1();},tt1);
   }
 }
